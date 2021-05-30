@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       screens: {
         "3xl": "2000px", //used in 3xl:flex result section 
+      },
+      width: {
+        '1/20': '5%',
       }
     },
   },

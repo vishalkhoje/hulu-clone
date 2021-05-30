@@ -10,6 +10,7 @@ import {
 } from "@heroicons/react/outline"
 
 //hulu green logo : https://hulu-matchmaker.s3.us-west-2.amazonaws.com/2020-08/Hulu_Logo-01_newgreen.png
+// hulu white logo : https://links.papareact.com/ua6
 function Header() {
     return (
         <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
@@ -22,7 +23,7 @@ function Header() {
                 <HeaderItems title="ACCOUNT" Icon={UserIcon} />
             </div>
             <Image
-                src="https://hulu-matchmaker.s3.us-west-2.amazonaws.com/2020-08/Hulu_Logo-01_newgreen.png"
+                src="https://links.papareact.com/ua6"
                 className="object-contain"
                 width={200}
                 height={100}
